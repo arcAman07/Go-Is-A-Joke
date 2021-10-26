@@ -5,4 +5,4 @@ want to listen based on the various categories , blacklistFlags, etc. The Full J
 Use of Joke API - https://jokeapi.dev/
 
 Things to be added : JSON data received is yet to be unmarshalled and needs to be converted into a struct to send only the particular fields of data as a reponse to the server.
-Compared to node and express, you can see enormous lines of code has to be written and monitored to get the same exact output.( use of an external API)
+Compared to node and express, you can see enormous lines of code has to be written and monitored to get the same exact output.( use of an external API )
