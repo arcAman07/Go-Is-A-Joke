@@ -4,4 +4,4 @@ want to listen based on the various categories , blacklistFlags, etc. The Full J
 
 Use of Joke API - https://jokeapi.dev/
 
-Things to be added : 
+Things to be added : JSON data received is yet to be unmarshalled and needs to be converted into a struct to send only the particular fields
