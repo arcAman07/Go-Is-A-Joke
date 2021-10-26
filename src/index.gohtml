@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Personalised Joke Generator</h1>
+    <form method="POST" action="/">
+      <h3>CATEGORIES</h3>
+      <br />
+      <input type="text" name="category" value="" />
+      <h4>References for CATEGORIES</h4>
+      <ol>
+        <li>Programming</li>
+        <li>Misc</li>
+        <li>Dark</li>
+        <li>Pun</li>
+        <li>Spooky</li>
+        <li>Christmas</li>
+      </ol>
+      <h4>FLAG TO BLACKLIST</h4>
+      <input type="text" name="blacklist" value="" />
+      <br />
+      <h4>REFERENCES FOR BLACKLIST</h4>
+      <ol>
+        <li>nsfw</li>
+        <li>religious</li>
+        <li>political</li>
+        <li>racist</li>
+        <li>sexist</li>
+        <li>explicit</li>
+      </ol>
+      <br />
+      <h4>CONTAINS THE STRING</h4>
+      <input type="text" name="word" value="" />
+      <br />
+      <br />
+      <button type="submit">FIND JOKE!</button>
+    </form>
+  </body>
+</html>
